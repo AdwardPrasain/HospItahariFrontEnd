@@ -1,0 +1,214 @@
+.bloodDonationForm{
+    background-color:white;
+    background-size:cover; 
+    padding-top: 2rem;
+    padding-bottom:6rem;
+
+}
+
+.bloodDonationForm h2{
+    color:#7e3434;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    width: max-content; 
+    margin-left: 6rem;  
+
+}
+
+.bloodDonationForm .container{ 
+    width: 63rem;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:6rem;
+}
+
+.bloodDonationForm .box1{
+    background-color:white;
+    text-align: center;
+    width:20rem;
+
+}
+
+.bloodDonationForm .background-image{
+    width: 30rem; 
+    height: 35rem;
+}
+
+.bloodDonationForm .box2{
+    background-color: white;
+    font-family:'poppins', sans-serif;
+    margin-left:rem;
+   
+}
+
+.bloodDonationForm .input-box{
+    margin-left: 0.5rem;
+    margin-top:0.8rem;
+    color:rgb(18, 28, 28);
+ 
+}
+
+
+
+.bloodDonationForm .commonInput{
+    color:rgb(39, 34, 34);
+    padding: 0.3rem;
+    border:2px solid rgb(189, 183, 183);
+    border-radius: 0.5rem;
+    background-color: rgb(221, 221, 221);
+    width:12rem;
+    margin-top:0.3rem;
+    margin-left:2rem;
+    font-size: small;
+}
+
+
+.bloodDonationForm .top-row{
+    display:flex;
+    flex-direction: row;    
+    margin-top: 1rem;
+}
+
+.bloodDonationForm .lblFname{
+  
+    font-family: cursive;
+    margin-left:2rem;
+
+}
+
+.bloodDonationForm .lblAddress{
+   
+    font-family: cursive;
+    margin-left:2rem;
+}
+
+
+.bloodDonationForm .mid-row{
+    margin-top: 1rem;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    
+}
+
+.bloodDonationForm .sameBackground{
+    border: 1px solid #d9d9d9;
+    background-color: white;
+    box-shadow: 0 0 0.6rem rgba(183, 155, 155, 0.7);
+}
+
+.bloodDonationForm .lblDob{
+
+    font-family: cursive;
+    margin-left:2rem;
+}
+
+.bloodDonationForm .dobInput{
+    margin-top: 0.3rem;
+    height:1.7rem;
+    margin-left:2rem;
+    font-size: small;
+  
+}
+
+.bloodDonationForm .lblBloodgroup{
+    font-family: cursive;
+    margin-left:8rem;
+}
+
+.bloodDonationForm .bloodGroupInput{
+    margin-top: 0.3rem;
+    height:1.7rem;
+    margin-left:8rem;
+    font-size: small;
+}
+
+.bloodDonationForm .lblFirstDonation{
+    
+    font-family: cursive;
+    margin-left:2rem;
+}
+
+.bloodDonationForm h5{
+    color:#661818;
+ 
+    font-family: cursive;
+    margin-left:2rem;
+    margin-bottom: 0.3rem;
+    font-size: medium;
+    font-weight: normal;
+}
+
+
+.bloodDonationForm .lowerMid-row{
+    display:flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+
+
+.bloodDonationForm .lblGender{
+    color:#661818;
+    margin-top:0.2rem;
+    margin-bottom: 0.3rem;
+    margin-left: 2rem;
+   
+    font-family: cursive;
+}
+
+.bloodDonationForm .lblRecentlyDonated{
+    color:#661818;
+    margin-top:0.2rem;
+    margin-bottom: 0.3rem;
+    margin-left: 6rem;
+    font-family: cursive;
+}
+
+.bloodDonationForm .recentInput{
+    margin-top: 1rem;
+    height:1.7rem;
+    margin-left:6rem;
+    font-size: small;
+   
+}
+
+
+.bloodDonationForm .last-row{
+    display:flex;
+    flex-direction: row;
+    margin-top: 0.8rem;
+}
+
+.bloodDonationForm .lblEmail{
+   
+    font-family: cursive;
+    margin-left:2rem;
+}
+
+.bloodDonationForm .lblNumber{
+ 
+    font-family: cursive;
+    margin-left:2rem;
+}
+
+.bloodDonationForm .registerButton{
+    padding:0.5rem;
+    margin-top:1.5rem;
+    height:2rem;
+    border:none;
+    border-radius:1rem;
+    text-align:center;
+    margin-left:11.8rem;
+    width:7rem;
+    color:white;
+    background-color: teal;
+    cursor:pointer;
+}
+
+.bloodDonationForm .registerButton:hover{
+   background-color:#661818;;
+   color:cornsilk;
+}

@@ -1,0 +1,158 @@
+.bloodBank .samerowTop{
+    display: flex;
+    flex-direction: row;
+}
+
+.bloodBank .bloodFacts {
+    background-color: transparent;
+    width: 26rem;
+    height: 21rem;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+.bloodBank  .bloodFactsCover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+.bloodBank  .bloodFacts:hover .bloodFactsCover {
+    transform: rotateY(180deg);
+  }
+  
+.bloodBank  .universalDonor, .universalRecipient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+   
+}
+
+.bloodBank  .universalDonor , .universalRecipient {
+    padding-top: 0.8rem;
+    font-size: medium;
+    font-family:cursive
+}
+
+.bloodBank .universalDonor {
+    background-color: rgb(35, 150, 150);
+    color: cornsilk;
+  }
+  
+.bloodBank .universalRecipient {
+    background-color: rgb(86, 142, 197);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+
+.bloodBank .donorInfo{
+    overflow:hidden;
+    overflow-y: scroll;
+    height:15rem;
+    text-align: center;
+
+}
+
+.bloodBank #donors{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: medium;
+}
+
+.bloodBank #donors th{
+    top: 0;
+    position: sticky;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    background-color: rgb(87, 157, 157);
+    color:white;
+    font-size:medium ;
+}
+
+.bloodBank #donors td, .bloodBank #donors th{
+    border:1px solid white;
+    padding:0.5rem;
+}
+
+.bloodBank  #donors tr:hover {
+    background-color: #7ed8c2;
+    color:#4e3f3f;
+}
+
+
+
+.bloodBank .availableBloods{
+    overflow:hidden;
+    overflow-y: scroll;
+    height:15rem;
+ 
+}
+
+.bloodBank #bloodsAvailable{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: medium;
+}
+
+.bloodBank #bloodsAvailable th{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    background-color: rgb(87, 157, 157);
+    color:white;
+}
+
+.bloodBank #bloodsAvailable td, .bloodBank #bloodsAvailable th{
+    border:1px solid white;
+    padding:0.5rem;
+}
+
+.bloodBank #bloodsAvailable tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ 
+.bloodBank  #bloodsAvailable tr:hover {
+    background-color: #7ed8c2;
+    color:#4e3f3f;
+
+}
+ 
+.bloodBank .editIcon{
+    height:1rem;
+    cursor:pointer;
+}
+
+.bloodBank .deleteIcon{
+    height: 1rem;
+    cursor:pointer;
+}
+
+.bloodBank .bloodDonate{
+    margin-bottom: 5rem;
+}
+
+.bloodBank .donateBlood{
+    width:23rem;
+    height:2.5rem;
+    border:0.1rem solid rgb(255, 215, 215);
+    background:rgb(130, 54, 54);
+    font-size: large;
+    color:#d9d9d9;
+    cursor:pointer;
+  
+}  
+
+
+

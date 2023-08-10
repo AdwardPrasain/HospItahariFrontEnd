@@ -1,0 +1,242 @@
+.Signup p{
+    word-spacing: 0.1rem;
+    color:darkslategrey;
+    font-size:0.8rem;
+    margin-top: 3rem;
+    margin-left: 13.5rem;
+    font-family: cursive;
+}
+
+.Signup a{
+    margin-left: 0.3rem;
+    color:#661818;
+    font-family:monospace;
+    font-weight: bold;
+}
+
+.Signup .wrapup{
+    height:33rem;
+    width: 55rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 0.6rem rgba(4, 9, 30, 0.7);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:10rem;
+    margin-bottom:1rem;
+}
+
+.Signup .box1{
+    background-color:#d9d9d9;
+    text-align: center;
+    width:22rem;
+}
+
+.Signup .main-logo{
+    height:17rem;
+    margin-top: 4rem;
+    margin-left:2rem;
+}
+
+.Signup .signupContent{
+    margin-top:0.2rem;
+    animation: blinker 3s linear infinite;
+    color:Teal;
+    font-weight: 1.5rem;
+}
+
+@keyframes blinker{
+    50% {
+        opacity:1;
+        color:#661818;
+        font-family:cursive;
+    }
+}
+
+.Signup .box2{
+    background-color: #661818;
+    font-family:'poppins', sans-serif;
+    width:33rem;
+   
+
+}
+.Signup .input-box{
+    margin-top:1.8rem;
+    color:#d9d9d9;
+ 
+}
+
+.Signup .top-row{
+    display:flex;
+    flex-direction: row;
+}
+
+.Signup .lblFname{
+    font-size: Medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:4.9rem;
+   
+}
+
+.Signup .fullnameInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:12rem;
+    margin-top: 0.5rem;
+    margin-left:2.5rem;
+}
+
+.Signup .lblAddress{
+    font-size: Medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-top: 0.5rem;
+    margin-left: 8rem;
+
+}
+
+.Signup .addressInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:12rem;
+    margin-top: 0.5rem;
+    margin-left:4rem;
+}
+
+.Signup .middle-row{
+    display:flex;
+    flex-direction: row;
+}
+
+.Signup .lblNumber{
+    font-size: Medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-top:15rem;
+    margin-left:4.6rem;
+   
+
+}
+
+.Signup .numberInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:12rem;
+    margin-top: 0.5rem;
+    margin-left:2.5rem;
+} 
+
+.Signup .lblEmail{
+    font-size: Medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-top:15rem;
+    margin-left:8.5rem;
+   
+
+}
+
+.Signup .emailInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:12rem;
+    margin-top: 0.5rem;
+    margin-left:4rem;
+}
+
+.Signup .last-row{
+    display:flex;
+    flex-direction: row;
+}
+
+.Signup .lblSetpassword{
+    font-size: Medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:4.5rem;
+   
+}
+
+.Signup .set-passwordInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:12rem;
+    margin-top: 0.5rem;
+    margin-left:2.5rem;
+}
+
+.Signup .lblConfirmpassword{
+    font-size: Medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-top: 0.5rem;
+    margin-left:4.5rem;
+
+}
+
+.Signup .confirm-passwordInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:12rem;
+    margin-top: 0.5rem;
+    margin-left:4rem;
+}
+.Signup .otpBtn{
+    margin-top:2rem;
+    height:2rem;
+    border:none;
+    border-radius:1rem;
+    text-align:center;
+    margin-left:13rem;
+    width:8rem;
+    letter-spacing:0.1rem;
+    color:#661818;
+}
+
+.Signup .otpBox{
+    margin-top:1.8rem;
+    color:#d9d9d9;
+    margin-left:4.5rem;
+    justify-content: center;
+}
+.Signup .lblOtp{
+    font-size: medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-top: 0.7rem;
+    margin-left:5rem;
+}
+
+.Signup .otpInput{
+    margin-top: 0.5rem;
+    margin-left:6rem;
+}
+
+
+.Signup .registerButton{
+    margin-top:2.5rem;
+    height:2rem;
+    border:none;
+    border-radius:1rem;
+    text-align:center;
+    margin-left:13rem;
+    width:9rem;
+    letter-spacing:0.1rem;
+    color:#661818;
+}
+
+
+

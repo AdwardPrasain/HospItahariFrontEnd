@@ -1,0 +1,234 @@
+
+.ConactUsbody,
+input,
+textarea{
+    font-family: 'poppins', sans-serif;
+}
+
+.ContactUs .box{
+    position: relative;
+    height: fit-content;
+    padding: 2rem;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactUs .container{
+    width: 50rem;
+    height:34rem;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(4, 9, 30, 0.7);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ContactUs .info{
+    background-color: #fff;  
+    margin-left: -0.7rem;
+}
+
+.ContactUs .form{
+    background-color: teal;
+    position: relative;
+    margin-right: -0.8rem;
+}
+
+.ContactUs .form:before{
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color:teal;
+    transform: rotate(45deg);
+    top: 50px;
+    left: -13px;
+}
+
+.ContactUs .circle{
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, grey);
+    position: absolute;
+}
+
+.ContactUs .circle.one{
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right: -40px;
+}
+
+.ContactUs .circle.two{
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    right: 30px;
+}
+
+
+.ContactUs .head {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-left: 3rem;
+    margin-top:1rem;
+}
+
+.ContactUs .input-box{
+    position: relative;
+    margin-top: 2rem ;
+    margin-left: 1rem;
+    width:19rem;
+    
+}
+ 
+.ContactUs .input{
+    width: 100%;
+    height:3rem;
+    outline: none;
+    border: 2px solid #fff;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.ContactUs textarea.input{
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    border-radius: 22px;
+    resize: none;
+    overflow: auto;
+}
+
+.ContactUs .input-box label{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    padding: 0 0.4rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    pointer-events: none;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+.ContactUs .input-box.textarea label{
+    top: 1rem;
+    transform: translateY(0);
+}
+
+.ContactUs .btn{
+    background-color: #fff;
+    border: 2px solid #fff;
+    font-size: 1rem;
+    color: teal;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 1rem;
+    margin-left:1.5rem;
+    height: 2.3rem;
+    width:7rem;
+    font-size: small;
+}
+
+.ContactUs .btn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.ContactUs .head2{
+    font-size: 1.3rem;
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+    color:cornsilk
+}
+
+.ContactUs .input::placeholder{
+    color:cornsilk;
+    font-size: smaller;
+}
+
+.ContactUs .input-box.focus label{
+    top: 0;
+    transform: translateY(-50%);
+    left: 15px;
+    font-size: 0.8rem;
+}
+
+.ContactUs .icon svg{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;    
+}
+.ContactUs .info{
+    padding: 2.3rem 2.2rem;
+    position: relative;
+}
+.ContactUs .info .head{
+    color:teal;
+}
+.ContactUs .text{
+    color: #333;
+    margin: 1.5rem 0 2rem 0;
+}
+.ContactUs .information{
+    display: flex;
+    align-items: center;    
+}
+.ContactUs .information p{
+    margin-left: 10px;
+    font-size: 1rem;
+}
+.ContactUs .socials{
+    padding: 2rem 0 0;
+}
+.ContactUs .socials-icon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.ContactUs .socials-icon a{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height:35px;
+    margin-right: 0.5rem;
+}
+.ContactUs .socials-icon svg{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    fill: #fff;
+    text-align: center;
+    line-height:35px;
+    margin-right: 0.5rem;
+    margin-left: 5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.ContactUs .socials-icon svg:hover {
+    transform: scale(1.45);    
+}
+
+.ContactUs .information{
+    display: flex;
+    flex-direction: row;
+}
+
+.ContactUs .information p{
+    margin-left:-0.5rem;
+    margin-top: -0.5rem;
+}
+

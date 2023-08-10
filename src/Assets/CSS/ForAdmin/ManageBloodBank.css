@@ -1,0 +1,51 @@
+.ManageBloodBank .donorInfo{ 
+    overflow:scroll;
+    height:36.8rem;
+    margin-top:3.5rem;
+    text-align: center;
+    
+}
+
+
+.ManageBloodBank #donors{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small
+}
+
+.ManageBloodBank #donors th {
+    top: 0;
+    position: sticky;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(87, 157, 157);
+    color:white;
+}
+
+.ManageBloodBank #donors td, .ManageBloodBank #donors th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+  
+  
+.ManageBloodBank .editIcon{
+    height:1rem;
+    cursor:pointer;
+}
+
+.ManageBloodBank .deleteIcon{
+    height: 1rem;
+    cursor:pointer;
+}
+
+.ManageBloodBank .approveIcon{
+    height:1rem;
+    cursor:pointer;
+}
+
+.ManageBloodBank .declineIcon{
+    height: 1rem;
+    cursor:pointer;
+}

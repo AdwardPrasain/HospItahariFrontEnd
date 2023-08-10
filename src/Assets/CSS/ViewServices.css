@@ -1,0 +1,49 @@
+.ViewServices .box2 p{
+    color:#661818; 
+}
+
+.ViewServices .servicesTable{
+    overflow:hidden;
+    overflow-y:scroll;
+    height:23rem;
+    margin-top: 1rem;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.viewServices .searchText{
+    font-size: small;
+
+}
+
+.ViewServices #services{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ViewServices  #services th {
+    top: 0;
+    position: sticky;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(87, 157, 157);
+    color:white;
+    font-size: 0.8rem;
+  
+  }
+
+.ViewServices #services td, .ViewServices #services th {
+    border: 1px solid white;
+    padding: 8px;
+  }
+  
+.ViewServices #services tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ 
+
+.ViewServices  #services tr:hover {
+    background-color: #7ed8c2;
+    color:#4e3f3f
+}

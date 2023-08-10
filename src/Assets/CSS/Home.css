@@ -1,0 +1,299 @@
+.Home .hospitalProfile h2{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    color: rgb(71, 65, 65);
+}
+
+.Home .hospitals{
+    background-color:white;
+    border: #d9d9d9;
+    border-radius:0.5rem;
+    height: 23rem;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+
+.Home .doctorsProfile h2{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 2rem;
+    padding-top: 23rem;
+    color: rgb(71, 65, 65);
+  
+}
+
+.Home .hospitals img{
+    width:20rem;
+    height:12rem;
+}
+
+.Home .hospitals h4{
+    font-family:cursive;
+    color:#661818;
+    font-size: large;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.Home .hospitals .sameRow{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.Home .viewHospital{
+    margin-top: 1rem;
+    margin-left:1rem;
+    height: 2rem;
+    width: 9rem;
+    color:cornsilk;
+    background-color: #13886b;
+    border: #13886b;
+    cursor: pointer;
+    font-size: smaller;
+    font-family: cursive;
+    transition: all 0.5s;
+    border-radius:0.5rem;
+}
+
+
+
+.Home .topic{
+    font-family: cursive;
+    font-size: smaller;
+    font-weight: lighter;
+    margin-left: 2rem;
+    color: rgb(71, 65, 65);
+}
+
+.Home .swiper-button-next {
+    margin-top: 0.1rem;
+     color: cadetblue;
+     height: 0.2rem;
+}
+
+.Home .swiper-button-prev {
+    margin-top: 0.1rem;
+    color: cadetblue;
+    height: 0.2rem;
+}
+
+
+.Home .doctors{
+    background-color: white;
+    border: #d9d9d9;
+    border-radius:0.5rem;
+    height: 15rem;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+
+.Home .sameRow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    
+}
+
+.Home .slider{
+    width:75.8rem;
+    background-image:url("../../Assets/Images/hospitalSlide.jpg");
+    background-size: cover;
+    height:400px;
+    margin-left:-3rem;
+ 
+ }
+.Home .slider-h3{ 
+    font-size:30px;
+    padding:100px 0px 0px 100px;
+    color:#000;
+    text-shadow:1px 0.5px #CCC;
+}
+
+.Home .btn{
+    background:#13886b;
+    color:#FFF;
+    padding:9px 20px;
+    font-size:16px; 
+    text-decoration:none;
+    border-radius:3px;
+    text-shadow:none;
+}
+
+.Home .btn:hover{
+    background:#0080C0;
+}
+
+.Home .doctors img{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    width:8rem;
+    height:8rem;
+    border-radius:8rem;
+}
+
+.Home .doctors h4{
+    font-family: lucida sans-serif;
+    color:#661818;
+    font-size:large;
+    margin-top: 2rem;
+  
+}
+
+.Home .doctors a{
+    margin-left: 2rem;
+    color:darkslategray;
+    font-size: smaller;
+    font-family: cursive;
+}
+
+.Home .row2{
+    margin-left:1rem;
+}
+
+
+.Home .slider-bottom h2{
+    font-family: sans-serif;
+    font-size:large;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    color: rgb(71, 65, 65);
+}
+
+.Home .slider-bottom{
+    width:100%;
+    float:left;
+    margin-left: 0.5rem;
+}
+
+.Home .slider-bottom:hover{
+    width:100%;
+    float:left;
+    margin-left: 0.5rem;
+}
+
+.Home .slider-bottom-parts{
+    width:370px;
+    float:left;
+    padding:20px 11px;
+    background:#afe6d9;
+    border-right:2px #FFF solid;
+    color: #000;
+}
+
+.Home .slider-bottom-parts:hover{
+    width:370px;
+    float:left;
+    padding:20px 11px;
+    background:#023428;
+    border-right:2px #FFF solid;
+  color: white;
+}
+
+.Home .slider-bottom-parts-h3{ 
+    padding:10px 0px 1px;
+    text-align:center;
+    font-size:20px;
+}
+
+.Home .slider-bottom-parts-p{
+   
+    line-height:26px;
+    font-size:11px;
+    text-align:center;
+}
+
+.Home .row2 p{
+    margin-top: -0.5rem;
+    word-spacing:0.1rem;
+    letter-spacing: normal;
+    font-family: cursive;
+    font-size: smaller;
+    color:dimgray;
+}
+
+.Home .appointmentBtn{
+    margin-top: 1rem;
+    margin-left:-1rem;
+    height: 2rem;
+    width: 9rem;
+    color:cornsilk;
+    background-color:  #13886b;
+    border: 2px solid #357363;
+    cursor: pointer;
+    font-size: small;
+    font-family: cursive;
+    transition: all 0.5s;
+    border-radius:0.5rem;
+}
+
+
+
+
+
+.Home .registerComponent{
+    background-color:#a41b1b;
+    color: aliceblue;
+    height: 3.5rem;
+    padding-top:1rem;
+    margin-top: 1rem;
+    width: 76.1rem;
+    margin-left: -3.3rem;
+    margin-bottom: 0.1rem;
+}
+
+
+.Home .registerSelect{
+    display: flex;
+    flex-direction: row;
+    padding-left: 16.5rem;
+    font-size: 1.5rem; 
+}
+
+.Home .userLink{
+  margin-left: 11rem;
+  font-size: large;
+  color:  rgb(157, 167, 177);
+  text-decoration: none;
+  text-decoration-line: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Home .userLink:hover{
+    color:#dae6e3;
+    text-decoration: underline;
+}
+
+
+.Home .hospitalRegisterLink{
+    margin-top:-1.5 rem;
+    margin-left: 2rem;
+    font-size: large;
+    color:rgb(157, 167, 177);
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    text-decoration-line: underline;
+
+}
+
+.Home .hospitalRegisterLink:hover{
+    color:#edf5f3;
+    text-decoration: underline;
+}

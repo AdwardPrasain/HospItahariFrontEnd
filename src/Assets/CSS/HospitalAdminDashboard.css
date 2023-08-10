@@ -1,0 +1,265 @@
+.HospitalAdminDashboard .profile-body{
+margin: 0px 25px 25px 25px;
+background-color:rgb(224, 242, 218);
+/* background-image:url("../../Assets/Images/dashboardBG.png"); */
+bottom: 0.5rem;
+border-radius: 5px;
+
+}
+
+.HospitalAdminDashboard .profile {
+margin-top: -45px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+background-color: #7ed8c2;
+padding: 20px;
+z-index: 0;
+}
+
+
+.HospitalAdminDashboard .photo {
+    margin: 25px;
+  
+}
+
+.HospitalAdminDashboard .image--cover {
+    width: 170px;
+    height: 170px;
+    border: #fff 3px solid;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: -40px;    
+}
+
+.HospitalAdminDashboard .hospitalname,
+.HospitalAdminDashboard .email,
+.HospitalAdminDashboard .locationname
+ {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 1px;
+}
+
+.HospitalAdminDashboard .hospitalname {
+ 
+    font-size: 20pt;
+    margin: 2px
+}
+
+.HospitalAdminDashboard .email {
+    font-size: 14pt;
+}
+
+.HospitalAdminDashboard .locationname {
+    font-size: 14pt;
+    margin: 2px
+}
+
+.HospitalAdminDashboard .otherinfo {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+      margin-top: 1.25rem;
+      margin-bottom: 1.25rem;
+      overflow: hidden;
+      width: 37.5rem;
+  }
+  
+.HospitalAdminDashboard .otherinfo h6 {
+      opacity: 0.6;
+      margin: 0;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+  }
+  
+.HospitalAdminDashboard .otherinfo h6 {
+      letter-spacing: 1px;
+      margin: 10px 0;
+  }
+  
+.HospitalAdminDashboard .other-info {
+      padding: 30px;
+      position: relative;
+      width: 30rem;
+  }
+  
+  .HospitalAdminDashboard .location {
+    background-color: #fff;
+    border-radius: 0.2rem;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 100%;
+    margin-top: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 0.3rem;
+    overflow: hidden;
+    width: 43.75rem;
+}
+
+
+
+.HospitalAdminDashboard .modal-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.HospitalAdminDashboard .modal-header{
+    display: flex;
+    flex-direction: column;
+}
+  
+
+  
+.HospitalAdminDashboard  .btn {
+      background-color: #2A265F;
+      border: 0;
+      border-radius: 3.125rem;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+      color: #fff;
+      font-size: 0.8rem;
+      padding: 12px 25px;
+      position: absolute;
+      bottom: 30px;
+      right: 30px;
+      letter-spacing: 1px;
+  }
+  
+
+
+.HospitalAdminDashboard .floating-btn {
+      border-radius: 26.5px;
+      background-color: #001F61;
+      border: 1px solid #001F61;
+      box-shadow: 0 16px 22px -17px #03153B;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 12px 20px;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+  }
+  
+  .floating-btn:hover {
+      background-color: #ffffff;
+      color: #001F61;
+  }
+  
+  .floating-btn:focus {
+      outline: none;
+  }
+  
+  .floating-text {
+      background-color: #001F61;
+      border-radius: 10px 10px 0 0;
+      color: #fff;
+      font-family: 'Muli';
+      padding: 7px 15px;
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      z-index: 998;
+  }
+  
+.HospitalAdminDashboard .floating-text a {
+      color: #FF7500;
+      text-decoration: none;
+  }
+
+
+
+.HospitalAdminDashboard .graphContainer{
+    padding-left: 2rem;
+}
+
+
+
+.HospitalAdminDashboard .totalCountWrapup{
+    display:flex;
+    flex-direction:row;
+    overflow:wrap;
+    height:12rem;
+    padding:1rem
+}
+
+.HospitalAdminDashboard .totalCountContent{
+    border:2px ;
+    border-radius:0.3rem;
+    color: rgb(11, 93, 86);
+    background-color:rgb(224, 242, 218);
+    padding:0.5rem;
+    width:13.5rem;
+    margin-right:3rem;
+    box-shadow:rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size:0.8rem;
+}
+
+
+
+
+
+
+  @media screen and (max-width: 480px) {
+
+
+
+      
+.HospitalAdminDashboard .floating-btn {
+          right: 10px;
+      }
+  }
+
+.HospitalAdminDashboard .row1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.HospitalAdminDashboard .row2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.HospitalAdminDashboard .row3{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.HospitalAdminDashboard .row4{
+    display: flex;
+    flex-direction: row;
+}
+
+.HospitalAdminDashboard .input-box{
+    margin-top: 0.7rem;
+}
+
+.HospitalAdminDashboard .input-box1{
+    margin-top: 0.7rem;
+    padding-left: 3rem;
+}
+
+.HospitalAdminDashboard .input-box2{
+    margin-top: 0.7rem;
+    margin-left: -1.5rem;
+}
+
+.HospitalAdminDashboard input{
+    border:0.1rem solid rgb(233, 211, 211);
+    border-radius: 0.2rem;
+}
+

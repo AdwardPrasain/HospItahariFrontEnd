@@ -1,0 +1,139 @@
+.AddServices{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.AddServices .container{
+    height:30rem;
+    width: 52rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 0.6rem rgba(4, 9, 30, 0.7);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:12rem;
+   
+}
+
+.AddServices .box1{
+    background-color: #661818;
+    font-family:'poppins', sans-serif;
+    width:25rem;
+    color:#d9d9d9
+}
+
+.AddServices p{
+    text-align: center;
+    word-spacing: 0.1rem;
+    color:#d9d9d9;
+    font-size:1rem;
+    font-family: cursive;
+    margin-top:2rem;
+}
+
+.AddServices .input-box{
+    color:#d9d9d9;
+    padding-top: 2rem;
+}
+
+.AddServices .lblService{
+    font-size: small;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:8rem;
+    
+}
+
+.AddServices .serviceInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:12rem;
+    margin-top: 0.5rem;
+    margin-left:5.5rem;
+}
+
+.AddServices .lblAmount{
+    font-size: small;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:9.5rem;
+}
+
+.AddServices .amountInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:12rem;
+    margin-top: 0.5rem;
+    margin-left:5.5rem;
+}
+
+.AddServices .addButton{
+    margin-top:2.5rem;
+    height:2rem;
+    border:none;
+    border-radius:1rem;
+    text-align:center;
+    margin-left:9rem;
+    width:5rem;
+    letter-spacing:0.1rem;
+    color:darkslategray;
+}
+
+
+
+.AddServices .box2{
+    background-color:#d9d9d9;
+    text-align: center;
+    width:27rem;
+}
+
+.AddServices .box2 p{
+    color:#661818; 
+}
+
+.AddServices .servicesTable{
+    overflow:hidden;
+    overflow-y:scroll;
+    height:23rem;
+    margin-top: 2rem;
+    
+}
+
+.AddServices #services{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.AddServices  #services th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: darkslategray;
+    color:white;
+  }
+
+.AddServices #services td, .AddServices #services th {
+    border: 1px solid white;
+    padding: 8px;
+  }
+  
+.AddServices #services tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ 
+.AddServices  #services tr:hover {
+    background-color:#661818; 
+    color:#d9d9d9
+}
+  
+.AddServices .editIcon{
+    height:1rem;
+}
+
+.AddServices .deleteIcon{
+    height: 1rem;
+}

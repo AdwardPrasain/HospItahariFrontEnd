@@ -1,0 +1,80 @@
+.aboutUs .aboutUsWrapup{
+    width: 65rem;
+    height:40rem;
+    border:1px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:5rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;  
+}
+
+.aboutUs .box1{
+    background-color:darkslategray;
+    width:30rem;
+    color:gainsboro;
+}
+
+.aboutUs .founder{
+    border-radius:7rem;
+    height:10rem;
+    margin-left:9rem;
+    margin-top:5rem;
+    
+}
+
+.aboutUs h1{
+    margin-top:2rem;
+    margin-left: 7.5rem;
+    font-size: large; 
+    font-family: arial;
+    text-decoration: underline;
+    color:cornsilk
+}
+
+.aboutUs p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: medium;
+    font-family: arial;
+    word-spacing: 0.1rem;
+    margin-top: 1rem;
+    text-align:justify;
+}
+
+.aboutUs .box2{
+    background-color:#d9d9d9;
+    width:35rem;
+
+}
+
+.aboutUs .aboutHospItahari{
+    margin-top:2rem;
+    margin-left: 13rem;
+    font-size: Medium; 
+    font-family: arial;
+    text-decoration: underline;
+    color:#661818;
+}
+
+.aboutUs .common-p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: small;
+    font-family: arial;
+    word-spacing: 0.1rem;
+    margin-top: -0.1rem;
+    text-align:justify;
+    color:darkslategray
+}
+
+.aboutUs h2{
+    margin-top:1.5rem;
+    margin-left: 1rem;
+    font-size: 0.9rem; 
+    font-family: arial;
+    color:#661818;
+}
+
+

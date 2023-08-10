@@ -1,0 +1,288 @@
+
+/*<--------- css for map and hospital image ---------> */
+
+.Hospital .sameRow-top{
+    display: flex;
+    flex-direction: row;
+    border:0.1rem solid #d9d9d9;;
+    border-radius: 0.3rem;
+    box-shadow: 6px 6px 6px rgb(190, 186, 186);
+    margin: 0.5rem;
+    width:98.5%;
+    height:18rem;
+}
+
+
+.Hospital .sameRow-top img{
+    width:28rem;
+    height:18rem;
+}
+
+.Hospital .map{
+    position:relative;
+    text-align:right;  
+}
+     
+.Hospital iframe{
+    overflow:hidden;
+    background:none!important;
+    border: 0.1rem;
+    width:47.3rem;
+    height:18rem;
+}
+
+
+/*<--------- css for hospital description and contact portion --------->*/
+
+.Hospital .sameRow-mid{
+    display: flex;
+    flex-direction: row;
+}
+
+.Hospital .description{
+    display: flex;
+    flex-direction: column;
+    color:darkslategrey;
+    word-spacing:0.2rem;
+    letter-spacing: normal;
+    font-family: cursive;
+    margin-top: 0.6rem;
+    margin-left:2rem;
+}
+
+.Hospital #hospitalName{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.Hospital #hospitalType{
+    font-size: large;
+    margin-top: 0.3rem;
+}
+
+.Hospital #hospitalAddress{
+    font-size: large;
+    margin-top: 0.3rem;
+}
+
+.Hospital .contacts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12rem;
+    margin-top:1rem;
+}
+
+.Hospital .common{
+    background-color: darkslategray;
+    border: darkslategray;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 7rem;
+    /* margin-top: 2rem; */
+    margin-left:1rem;  
+    padding-left: 0.2rem; 
+    display: flex;
+    flex-direction: row;
+}
+
+.Hospital .phone{
+    background-size:4rem;
+}
+
+.Hospital .mail{
+    background-size: 4rem;
+
+}
+.Hospital .contacts a{
+    text-decoration: none;
+    color:cornsilk;
+    font-size: large;
+    font-family: cursive;
+    transition: all 0.5s;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+}
+
+
+/*<--------- css for our services portion --------->*/
+
+.Hospital .services{
+    margin-top: 4rem;
+}
+
+
+.Hospital .services h2{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 2rem;
+    color: rgb(71, 65, 65);
+    margin-top:-0.1rem;
+}
+
+
+
+.Hospital .servicesTable{
+    overflow:hidden;
+    overflow-y:scroll;
+    height:23rem;
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+
+.Hospital #services{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Hsopital  #services th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: darkslategray;
+    color:white;
+  }
+
+.Hospital #services td, .Hospital #services th {
+    border: 1px solid white;
+    padding: 8px;
+  }
+  
+.Hospital #services tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ 
+.Hospital  #services tr:hover {
+    background-color:#661818; 
+    color:#d9d9d9
+}
+
+
+
+
+/* <--------- css for our doctor portion ---------> */ 
+
+.Hospital .doctorsProfile{
+    border:0.1rem solid #d9d9d9;
+    border-radius: 0.3rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+.Hospital .topicWrap{
+    background: #d9d9d9;
+    height: 5rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.Hospital .swiper-button-next {
+    margin-top: 0.1rem;
+     color: cadetblue;
+     height: 0.2rem;
+}
+
+.Hospital .swiper-button-prev {
+    margin-top: 0.1rem;
+    color: cadetblue;
+    height: 0.2rem;
+}
+
+
+.Hospital .doctorsProfile h2{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 2rem;
+    color: rgb(71, 65, 65);
+    margin-top:-0.1rem;
+}
+
+.Hospital .topic{
+    font-family: cursive;
+    font-size: smaller;
+    font-weight: lighter;
+    margin-left: 2rem;
+    color: rgb(71, 65, 65);
+}
+
+.Hospital .doctors img{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    width:8rem;
+    height:8rem;
+    border-radius:8rem;
+}
+
+.Hospital .doctors{
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    border-radius:0.5rem;
+    height: 15rem;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 6px 6px 6px rgb(190, 186, 186);
+}
+
+.Hospital .sameRow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+
+}
+
+.Hospital .doctors h4{
+    font-family: lucida sans-serif;
+    color:#661818;
+    font-size:large;
+    margin-top:1.6rem;
+}
+
+.Hospital .doctors a{
+    margin-left: 2rem;
+    color:darkslategray;
+    font-size: smaller;
+    font-family: cursive;
+}
+
+.Hospital .row2{
+    margin-left:1rem;
+}
+
+.Hospital .row2 p{
+    margin-top: -0.5rem;
+    word-spacing:0.1rem;
+    letter-spacing: normal;
+    font-family: cursive;
+    font-size: smaller;
+    color:dimgray;
+}
+
+.Hospital .appointmentBtn{
+    margin-top: 2rem;
+    margin-left:-1.1rem;
+    height: 2rem;
+    width: 18rem;
+    color:cornsilk;
+    background-color: darkslategray;
+    border: darkslategray;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-size: smaller;
+    font-family: cursive;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+
+
+
+
+
+

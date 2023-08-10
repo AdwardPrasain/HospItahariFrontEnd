@@ -1,0 +1,303 @@
+.AddDoctors{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.AddDoctors .container{
+    height:38rem;
+    width: 72rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 0.6rem rgba(4, 9, 30, 0.7);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:1rem;  
+}
+
+.AddDoctors .box1{
+    background-color: #661818;
+    font-family:'poppins', sans-serif;
+    width:29rem;
+    color:#d9d9d9;
+}
+
+.AddDoctors p{
+    text-align: center;
+    word-spacing: 0.1rem;
+    color:#d9d9d9;
+    font-size:1rem;
+    font-family: cursive;
+    margin-top:2rem;
+}
+
+.AddDoctors .input-box{
+    color:#d9d9d9;
+    padding-top:2.3rem;
+}
+
+.AddDoctors .same-row{
+    display:flex;
+    flex-direction:row;
+   
+}
+
+.AddDoctors .lblname{
+    font-size: medium;
+    letter-spacing:0.2rem;
+    font-family:cursive;
+    margin-left: 2rem;
+}
+
+
+  
+.AddDoctors .NameInput{
+    color:white;
+    border:none;
+    border-bottom:1px solid #d9d9d9;;
+    background-color: transparent;
+    outline: none;
+    height:1.5rem;
+    width:10rem;
+    margin-left:2rem;  
+}
+
+.AddDoctors .doctorPhoto{
+    color:#d9d9d9;
+    font-size: smaller;
+    text-align:center;
+    border-radius:1rem;
+    padding-top: 1rem;
+    width:6.9rem;
+    height:4rem;
+    margin-left:8.5rem;
+    margin-top: 2rem;
+    animation: example 3s linear infinite;
+}
+
+@keyframes example {
+    from { box-shadow: 0.1rem 0.1rem 0.3rem #d9d9d9}
+    to { box-shadow: 0.1rem 0.1rem 1.3rem #d9d9d9}
+}
+
+.AddDoctors #inputTag{
+    display: none;
+  }
+
+.AddDoctors .lblImage{
+    cursor:pointer;
+}
+  
+.AddDoctors .lblFname{
+    font-size: medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:1rem;
+    
+}
+
+  
+.AddDoctors .fNameInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline:none;
+    height:1.5rem;
+    width:10rem;
+    margin-top:0.5rem;
+    margin-left:1rem;
+}
+
+.AddDoctors .lblNmc{
+    font-size: medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:2rem;
+
+}
+
+  
+.AddDoctors .nmcInput{
+    color:white;
+    border:none;
+    border-bottom:1px solid #d9d9d9;;
+    background-color: transparent;
+    outline: none;
+    height:1.5rem;
+    width:10rem;
+    margin-top:0.5rem;
+    margin-left:2rem;
+}
+
+.AddDoctors .lblExperience{
+    font-size: medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:5rem;
+
+}
+
+  
+.AddDoctors .experienceInput{
+    color:white;
+    border:none;
+    border-bottom:1px solid #d9d9d9;;
+    background-color: transparent;
+    outline: none;
+    height:1.5rem;
+    width:10rem;
+    margin-top:0.5rem;
+    margin-left:5rem;
+}
+
+.AddDoctors .lblSpeciality{
+    font-size: medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:2rem;
+
+}
+
+  
+.AddDoctors .specialityInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline:none;
+    height:3rem;
+    width:10rem;
+    margin-top:0.5rem;
+    margin-left:2rem;
+}
+
+
+.AddDoctors .lblQualification{
+    font-size: medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:5rem;
+    
+}
+
+  
+.AddDoctors .qualificationInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline:none;
+    height:3rem;
+    width:10rem;
+    margin-top:0.5rem;
+    margin-left:5rem;
+}
+
+.AddDoctors .lblTime{
+    font-size: medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:2rem;
+
+}
+
+  
+.AddDoctors .timeInput{
+    color:white;
+    border:none;
+    border-bottom:1px solid #d9d9d9;;
+    background-color: transparent;
+    outline: none;
+    height:1.5rem;
+    width:10rem;
+    margin-top:0.5rem;
+    margin-left:2rem;
+}
+
+.AddDoctors .lblFee{
+    font-size: medium;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:5rem;
+}
+
+  
+.AddDoctors .feeInput{
+    color:white;
+    border:none;
+    border-bottom:1px solid #d9d9d9;;
+    background-color: transparent;
+    outline: none;
+    height:1.5rem;
+    width:10rem;
+    margin-top:0.5rem;
+    margin-left:5rem;
+}
+
+.AddDoctors .addButton{
+    margin-top:1.5rem;
+    margin-left:12rem;
+    height:2rem;
+    border:none;
+    border-radius:1rem;
+    text-align:center;
+    width:5rem;
+    letter-spacing:0.1rem;
+    color:darkslategray;
+}
+
+
+
+.AddDoctors .box2{
+    background-color:#d9d9d9;
+    text-align: center;
+    width:43rem;
+}
+
+.AddDoctors .box2 p{
+    color:#661818; 
+}
+
+
+.AddDoctors .doctorsTable{
+    overflow:hidden;
+    overflow-y:scroll;
+    height:28rem;
+    margin-top:3.5rem;
+    
+}
+
+.AddDoctors #doctors{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small
+}
+
+.AddDoctors #doctors th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: darkslategray;
+    color:white;
+}
+
+.AddDoctors #doctors td, .AddDoctors #doctors th {
+    border: 1px solid white;
+    padding: 8px;
+}
+  
+.AddDoctors #doctors tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ 
+.AddDoctors  #doctors tr:hover {
+    background-color:#661818; 
+    color:#d9d9d9;
+    font-size: medium;
+    
+    
+}
+  
+.AddDoctors .editIcon{
+    height:1rem;
+}
+
+.AddDoctors .deleteIcon{
+    height: 1rem;
+}
+

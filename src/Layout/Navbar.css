@@ -1,0 +1,121 @@
+.navbar .nav{
+    height: 4.5rem;
+    width: 100%; 
+	border: 0.1rem solid #c7cdc0;
+	background-color: white;
+	box-shadow: 0px 0px 14px 0px rgba(34, 34, 34, 0.75);
+    margin-top: -0.5rem;
+   
+
+}
+.navbar .top{
+	width:100%;
+	background-color:#2febbc !important;
+	border-bottom:2px solid #f0f0f0;
+}
+.navbar .top div{
+	width:1200px;
+	color:#fff;
+	background-color:#2febbc !important;
+	font-family:calibri;
+	padding:8px;
+	text-align:right;
+}
+
+.navbar .main-logo{
+    height: 4.2rem;
+    width:4rem;
+    margin-left:2rem;
+    margin-top: 0.1rem;
+}
+
+.navbar .sameRow{
+    padding-top:1.7rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3rem;
+}
+
+.navbar .searchText{
+    border-radius: 0.2rem;
+    border: 0.1rem solid #dfdfdf;
+    outline: none;
+    font-size: small;
+    width:19rem;
+    height: 2rem;
+    color:teal;
+    margin-left:4rem;
+
+}
+
+.navbar .nav_list{
+	float:right;
+	width:fit-content;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:0.9rem;
+    list-style: none;
+    list-style-type: none; 
+    justify-content:space-between;
+    padding-top:1rem;
+    
+    
+}
+
+
+
+.navbar .nav_link{
+    padding-left: 1.5rem;
+    text-decoration:none;
+    color:teal;   
+ 
+}
+
+ .nav_link:hover {  
+    color: rgb(80, 68, 62);
+   text-decoration: underline;
+    
+  }
+
+
+.navbar .searchBtn{
+    border-radius: 0.2rem;
+    border: 0.1rem solid rgb(205, 191, 191);
+    outline: none;
+    font-size: small;
+    height: 2rem;
+    width: 2rem;
+ 
+}
+
+.navbar .searchlogo{
+    height:1.5rem;
+    width:1.5rem;
+    margin-left: -0.1rem;
+}
+
+
+
+.navbar .menuIcon{
+    height:1.6rem;
+    margin-left:5rem;
+
+    cursor:pointer;
+}
+
+
+.navbar .menuIcon:hover{
+    border: 2px solid rgb(222, 210, 209);    
+}
+
+
+
+
+
+  
+  
+
+  
+
+
+
+

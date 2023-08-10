@@ -1,0 +1,57 @@
+.ManageHospital .hospitalTable{ 
+    overflow:scroll;
+    height:36.8rem;
+    margin-top:3.5rem;
+    text-align: center;
+    table-layout: fixed;
+
+}
+
+
+.ManageHospital #hospitals{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small
+}
+
+.ManageHospital #hospitals th {
+    top: 0;
+    position: sticky;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(87, 157, 157);
+    color:white;
+}
+
+.ManageHospital #hospitals td, .ManageHospital #hospitals th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+  
+.ManageHospital #hospitals tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ 
+
+.ManageHospital .editIcon{
+    height:1rem;
+    cursor:pointer;
+}
+
+.ManageHospital .deleteIcon{
+    height: 1rem;
+    cursor:pointer;
+}
+
+.ManageHospital .approveIcon{
+    height:1.3rem;
+    cursor:pointer;
+}
+
+.ManageHospital .declineIcon{
+    height: 1.3rem;
+    cursor:pointer;
+}
+

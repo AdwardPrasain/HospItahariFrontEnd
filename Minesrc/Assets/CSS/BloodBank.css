@@ -1,0 +1,57 @@
+.bloodBank{
+    background-image:url('../../Assets/Images/Bloodbankbg.jpg');
+    background-size:cover; 
+    height:100vh;  
+    padding-top:3rem;
+    padding-bottom: 3rem;
+
+}
+
+
+.bloodBank .wrapup{
+    height:30rem;
+    width: 50rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 0.6rem rgba(4, 9, 30, 0.7);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:10rem;
+}
+
+
+.bloodBank .box1{
+    background-color:#d9d9d9;
+    text-align: center;
+    width:30rem;
+}
+
+
+
+
+.bloodBank .box2{
+    background-color: #661818;
+    font-family:'poppins', sans-serif;
+    width:20rem;
+   
+
+}
+/* .bloodBank .Donor-info{
+    width:30rem;
+    text-align: center;
+*/
+
+.bloodBank .donateBlood{
+    width: 50rem;
+    height:5rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 0.6rem rgba(4, 9, 30, 0.7);
+    margin-left:11.5rem;
+    margin-top:1rem;
+    background:none;
+    border:none;
+    font-size: large;
+    color:#d9d9d9
+}   
+
+

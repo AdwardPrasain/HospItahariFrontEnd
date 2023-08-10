@@ -1,0 +1,52 @@
+.ViewAppointmentDetails .contactUsInfo{ 
+    overflow:scroll;
+    height:36.8rem;
+    margin-top:3.5rem;
+    text-align: center;
+    
+}
+
+
+.ViewAppointmentDetails #list{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small
+}
+
+.ViewAppointmentDetails #list th {
+    top: 0;
+    position: sticky;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(87, 157, 157);
+    color:white;
+}
+
+.ViewAppointmentDetails #list td, .ViewAppointmentDetails #list th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+
+  
+.ViewAppointmentDetails .editIcon{
+    height:1rem;
+    cursor:pointer;
+}
+
+.ViewAppointmentDetails .deleteIcon{
+    height: 1rem;
+    cursor:pointer;
+}
+
+.ViewAppointmentDetails .approveIcon{
+    height:1.3rem;
+    cursor:pointer;
+}
+
+.ViewAppointmentDetails .declineIcon{
+    height: 1.3rem;
+    cursor:pointer;
+}
+

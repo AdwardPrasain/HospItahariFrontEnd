@@ -1,0 +1,52 @@
+.ManageContacts .contactUsInfo{ 
+    overflow:scroll;
+    height:36.8rem;
+    margin-top:3.5rem;
+    text-align: center;
+    
+}
+
+
+.ManageContacts #list{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small
+}
+
+.ManageContacts #list th {
+    top: 0;
+    position: sticky;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(87, 157, 157);
+    color:white;
+}
+
+.ManageContacts #list td, .ManageContacts #list th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+
+  
+.ManageContacts .editIcon{
+    height:1rem;
+    cursor:pointer;
+}
+
+.ManageContacts .deleteIcon{
+    height: 1rem;
+    cursor:pointer;
+}
+
+.ManageContacts .approveIcon{
+    height:1.3rem;
+    cursor:pointer;
+}
+
+.ManageContacts .declineIcon{
+    height: 1.3rem;
+    cursor:pointer;
+}
+

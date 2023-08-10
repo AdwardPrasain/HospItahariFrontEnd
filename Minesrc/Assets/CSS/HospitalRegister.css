@@ -1,0 +1,392 @@
+.HospitalRegister{
+    padding-top:3rem;
+    padding-bottom: 3rem;
+}
+
+.HospitalRegister p{
+  word-spacing: 0.1rem;
+  color:darkslategrey;
+  font-size:0.8rem;
+  margin-left: 13.5rem;
+  font-family: cursive;
+}
+
+.HospitalRegister a{
+  margin-left: 0.3rem;
+    color:#661818;
+    font-family:monospace;
+    font-weight: bold;
+}
+
+.HospitalRegister .wrapup{
+    width: 55rem;
+    height:60rem;
+    border-radius:0.6rem;
+    box-shadow:0 0 0.6rem rgba(4, 9, 30, 0.7);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:11rem;
+}
+
+.HospitalRegister .box1{
+    background-color:#d9d9d9;
+    text-align: center;
+    width: 22rem;
+}
+
+.HospitalRegister .input-box{
+  color:#d9d9d9;
+}
+
+.HospitalRegister .main-logo{
+    margin-top: 8rem;
+    height:17rem;
+    margin-left:2rem;
+}
+
+.HospitalRegister h3{
+  margin-top:0.2rem;
+  animation: blinker 3s linear infinite;
+  color:Teal;
+  font-weight: 1.5rem;
+}
+
+@keyframes blinker{
+  50% {
+      opacity:1;
+      color:#661818;
+      font-family:cursive;
+  }
+}
+
+
+.HospitalRegister .box2{
+        background-color: #661818;
+        font-family:'poppins', sans-serif;
+        width:33rem;  
+        padding-left: 2rem;
+}
+
+.HospitalRegister .first-row{
+  display:flex;
+  flex-direction:row;
+  margin-top:2rem;
+}
+
+
+@keyframes example {
+  from { box-shadow: 0.1rem 0.1rem 0.3rem #d9d9d9}
+  to { box-shadow: 0.1rem 0.1rem 1.3rem #d9d9d9}
+}
+
+
+.HospitalRegister .photo{
+  color:#d9d9d9;
+  font-size: smaller;
+  text-align:center;
+  border-radius:1rem;
+  padding-top: 1rem;
+  width:6.9rem;
+  height:4rem;
+  margin-left:10rem;
+  animation: example 3s linear infinite;
+ 
+}
+
+.HospitalRegister #inputTag{
+  display: none;
+}
+.HospitalRegister .lblImage{
+  cursor:pointer;
+}
+
+.HospitalRegister .same-row{
+  display:flex;
+  flex-direction:row;
+  margin-top:2rem;
+}
+
+.HospitalRegister .lblHname{
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+  margin-left:0.3rem;
+}
+
+
+.HospitalRegister .hNameInput{
+  color:white;
+  border:none;
+  border-bottom:1px solid #d9d9d9;;
+  background-color: transparent;
+  outline: none;
+  height:1.5rem;
+  width:10rem;
+  margin-top: 0.5rem;
+}
+
+.HospitalRegister .lblEmail{
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+
+}
+
+.HospitalRegister .emailInput{
+  color:white;
+  border:none;
+  border-bottom:1px solid #d9d9d9;;
+  background-color: transparent;
+  outline: none;
+  height:1.5rem;
+  width:10rem;
+  margin-top: 0.5rem;
+}
+
+.HospitalRegister .lblNumber{
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+  margin-left:6.5rem;
+}
+
+.HospitalRegister .contactInput{
+  color:white;
+  border:none;
+  border-bottom:1px solid #d9d9d9;;
+  background-color: transparent;
+  outline: none;
+  height:1.5rem;
+  width:10rem;
+  margin-top: 0.5rem;
+  margin-left: 6.5rem;
+}
+
+.HospitalRegister .lblHospitalRegistered{
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+  margin-left: 2rem;
+}
+
+.HospitalRegister .registeredDateInput{
+  margin-top: 1rem;
+  margin-left:8.5rem;
+  height:1.5rem;
+  text-align: center;
+  width: max-content;
+  border-radius: 0.5rem;
+  border:0.125rem solid #d9d9d9;
+  letter-spacing:0.2rem;
+}
+
+
+.HospitalRegister .fourth-row{
+  margin-top:2rem;
+  background-color: darkslategray;
+  box-shadow:0 0 0.6rem rgba(4, 9, 30, 0.7);
+  margin-left: -2rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.6rem;
+}
+
+.HospitalRegister .same-row1{
+  display:flex;
+  flex-direction:row;
+
+}
+
+.HospitalRegister h5{
+  color:#661818;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+  margin-left:6.5rem;
+  font-size: medium;
+  font-weight: normal;
+}
+
+.HospitalRegister .lblCity{
+  color: #661818;
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+  margin-left: 5rem;
+}
+
+.HospitalRegister .cityInput{
+  color:#661818;
+  border:none;
+  border-bottom:1px solid #661818;;
+  background-color: transparent;
+  outline: none;
+  height:1.5rem;
+  width:10rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.HospitalRegister .lblDistrict{
+  color: #661818;
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+  margin-left: 2.5rem;
+}
+
+.HospitalRegister .districtInput{
+  margin-top:1rem;
+  margin-left:1.6rem;
+  height:1.7rem;
+  color: #661818;
+  border:1px solid #661818;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 0.5rem;
+  letter-spacing:0.2rem;
+}
+
+.HospitalRegister .lblWard{
+  color: #661818;
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+  margin-left: 4.5rem;
+}
+
+.HospitalRegister .wardInput{
+  color:#661818;
+  border:none;
+  border-bottom:1px solid #661818;;
+  background-color: transparent;
+  outline: none;
+  height:1.5rem;
+  text-align: center;
+  width:7rem;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+}
+
+
+
+
+
+
+
+.HospitalRegister .lblhealthCare{
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+}
+
+.HospitalRegister .healthCareInput{
+  color:white;
+  border:none;
+  border-bottom:1px solid #d9d9d9;;
+  background-color: transparent;
+  outline: none;
+  height:1.5rem;
+  width:10rem;
+  margin-top: 0.5rem;
+
+}
+
+.HospitalRegister .lblHospitalType{
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+  margin-left: 6rem;
+}
+
+.HospitalRegister .hospitalTypeInput{
+  margin-top: 1rem;
+  margin-left:5rem;
+  height:1.7rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  letter-spacing:0.2rem;
+}
+
+.HospitalRegister .lblSetpassword{
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+}
+
+.HospitalRegister .set-passwordInput{
+  color:white;
+  border:none;
+  border-bottom:1px solid #d9d9d9;;
+  background-color: transparent;
+  outline: none;
+  height:1.5rem;
+  width:10rem;
+  margin-top: 0.5rem;
+}
+
+.HospitalRegister .lblConfirmpassword{
+  font-size: Medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+  margin-left: 6rem;
+}
+
+.HospitalRegister .confirm-passwordInput{
+  color:white;
+  border:none;
+  border-bottom:1px solid #d9d9d9;;
+  background-color: transparent;
+  outline: none;
+  height:1.5rem;
+  width:10rem;
+  margin-top: 0.5rem;
+  margin-left: 6rem;
+}
+
+.HospitalRegister .otpBtn{
+  margin-top:2rem;
+  height:2rem;
+  border:none;
+  border-radius:1rem;
+  text-align:center;
+  margin-left:10rem;
+  width:8rem;
+  letter-spacing:0.1rem;
+  color:#661818;
+}
+
+.HospitalRegister .otpBox{
+  margin-top:1.8rem;
+  color:#d9d9d9;
+  margin-left:4.5rem;
+  justify-content: center;
+}
+.HospitalRegister .lblOtp{
+  font-size: medium;
+  letter-spacing:0.2rem;
+  font-family: cursive;
+  margin-top: 0.7rem;
+  margin-left:3.5rem;
+}
+
+.HospitalRegister .otpInput{
+  margin-top: 0.5rem;
+  margin-left:3rem;
+}
+
+
+.HospitalRegister .registerButton{
+  margin-top:2.5rem;
+  height:2rem;
+  border:none;
+  border-radius:1rem;
+  text-align:center;
+  margin-left:10rem;
+  width:9rem;
+  letter-spacing:0.1rem;
+  color:#661818;
+  
+}
+
+

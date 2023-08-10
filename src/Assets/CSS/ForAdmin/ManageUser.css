@@ -1,0 +1,59 @@
+.ManageUser .userTable{ 
+    overflow:scroll;
+    height:36.8rem;
+    margin-top:3.5rem;
+    text-align: center;
+    table-layout: fixed;
+
+    
+}
+
+
+.ManageUser #users{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small
+    
+
+}
+
+.ManageUser #users th {
+    top: 0;
+    position: sticky;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(87, 157, 157);
+    color:white;
+}
+
+.ManageUser #users td, .ManageUser #users th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+  
+.ManageUser #users tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ 
+  
+.ManageUser .editIcon{
+    height:1rem;
+    cursor:pointer;
+}
+
+.ManageUser .deleteIcon{
+    height: 1rem;
+    cursor:pointer;
+}
+
+.ManageUser .approveIcon{
+    height:1.3rem;
+    cursor:pointer;
+}
+
+.ManageUser .declineIcon{
+    height: 1.3rem;
+    cursor:pointer;
+}

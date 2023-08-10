@@ -1,0 +1,133 @@
+.login{
+    width: 50rem;
+    height:25rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 0.6rem rgba(4, 9, 30, 0.7);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top:4.5rem;
+    margin-left:11rem;
+    margin-bottom: 2rem;
+}
+
+.login .box1{
+    background-color:#ffffff;
+    text-align: center;
+}
+
+.login .main-logo{
+    height:17rem;
+    margin-left:2rem;
+}
+
+
+
+.login .loginContent{
+    margin-top:0.2rem;
+    animation: blinker 3s linear infinite;
+    color:Teal;
+    font-weight: 1.5rem;
+    font-size: larger;
+}
+
+@keyframes blinker{
+    50% {
+        opacity:1;
+        color:#661818;
+        font-family:cursive;
+    }
+}
+.login .sign-upButton{
+    height:2rem;
+    margin-top:0.3rem;
+    border:none;
+    width:9rem;
+    border-radius: 1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color:#661818;
+    cursor:pointer;
+}
+
+.login .sign-upButton:hover {
+    background-color:darkslategray;
+    color:gainsboro;
+}
+
+.login .sign-upButton:active{
+    background-color:darkslategray;
+    box-shadow:0 3px gray;
+    transform:translateY(4px);
+}
+
+.login .box2{
+    background-color: teal;  
+    text-align: center;
+    font-family:'poppins', sans-serif;
+    padding-top: 3rem;
+}
+
+.login .lblPhoneNumber{
+    font-size: medium;
+    letter-spacing:0.3rem;
+    font-family: cursive;
+    color:#d9d9d9
+}
+
+.login .loginInput{
+    border:2px solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.9rem;
+    width:12rem;
+    margin-top: 0.5rem;
+    font-size: small;
+    text-align: center;
+}
+
+.login .lblPassword{
+    font-size: medium;
+    letter-spacing:0.3rem;
+    font-family: cursive;
+    color:#d9d9d9
+}
+
+.login a{
+    font-size:small;
+    font-style: italic;
+    text-decoration: none;
+    color:#d9d9d9;
+   
+   
+}
+
+
+.login .loginButton{
+    margin-top:1rem;
+    height:2rem;
+    border:none;
+    border-radius:1rem;
+    text-align:center;
+    margin-left:0.5rem;
+    width:9rem;
+    letter-spacing:0.1rem;
+    color:#661818;
+    cursor:pointer;
+    
+}
+
+.login .loginButton:hover {
+    background-color:darkslategray;
+    color:gainsboro;
+}
+
+.login .loginButton:active{
+    background-color:darkslategray;
+    box-shadow:0 3px #d8d4d4;
+    transform:translateY(4px);
+}
+
+
+
+

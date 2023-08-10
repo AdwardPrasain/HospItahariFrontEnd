@@ -1,0 +1,193 @@
+.DoctorSchedule{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.DoctorSchedule .container{
+    height:30rem;
+    width: 52rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 0.6rem rgba(4, 9, 30, 0.7);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:12rem;
+   
+}
+
+.DoctorSchedule .box1{
+    background-color: teal;
+    font-family:'poppins', sans-serif;
+    width:25rem;
+    color:#d9d9d9;
+    margin-left: -0.8rem;
+}
+
+.DoctorSchedule p{
+    text-align: center;
+    word-spacing: 0.1rem;
+    color:#d9d9d9;
+    font-size:1rem;
+    font-family: cursive;
+    margin-top:2rem;
+}
+
+.DoctorSchedule .input-box{
+    color:#d9d9d9;
+    padding-top: 2rem;
+    font-size:small;
+}
+
+.DoctorSchedule .same-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.DoctorSchedule .lblDoctorId{
+    font-size: small;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:3rem;
+    
+}
+
+.DoctorSchedule .doctorIdInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:9rem;
+    margin-top: 0.5rem;
+    margin-left:1rem;
+    text-align: center;
+}
+
+
+.DoctorSchedule .lblNoOfPatient{
+    font-size: small;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:4rem;
+}
+
+.DoctorSchedule .noOfPatientInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:9rem;
+    margin-top: 0.5rem;
+    margin-left:4rem;
+    text-align: center;
+}
+
+
+.DoctorSchedule .lblDay{
+    font-size: small;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:4rem;
+}
+
+.DoctorSchedule .dayInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:9rem;
+    margin-top: 0.5rem;
+    margin-left:1rem;
+    text-align: center;
+}
+
+.DoctorSchedule .lblTime{
+    font-size: small;
+    letter-spacing:0.2rem;
+    font-family: cursive;
+    margin-left:7rem;
+}
+
+.DoctorSchedule .timeInput{
+    border:0.125rem solid #d9d9d9;
+    border-radius:0.5rem;
+    outline: none;
+    height:1.5rem;
+    width:9rem;
+    margin-top: 0.5rem;
+    margin-left:4rem;
+    text-align: center;
+}
+
+.DoctorSchedule .addButton{
+    margin-top:2.5rem;
+    height:2rem;
+    border:none;
+    border-radius:1rem;
+    text-align:center;
+    margin-left:9rem;
+    width:5rem;
+    letter-spacing:0.1rem;
+    color:darkslategray;
+    cursor:pointer;
+    font-size: small;
+}
+
+
+
+.DoctorSchedule .box2{
+    background-color:white;
+    text-align: center;
+    width:27rem;
+}
+
+.DoctorSchedule .box2 p{
+    color:#661818; 
+}
+
+.DoctorSchedule .servicesTable{
+    overflow:hidden;
+    overflow-y:scroll;
+    height:23rem;
+    margin-top: 2rem;
+    table-layout: fixed;
+    
+}
+
+.DoctorSchedule #services{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.DoctorSchedule  #services th {
+    top: 0;
+    position: sticky;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(87, 157, 157);
+    color:white;
+    font-size: 0.8rem;
+  
+  }
+
+  .DoctorSchedule  #services tr:hover {
+    background-color: #7ed8c2;
+    color:#4e3f3f
+}
+.DoctorSchedule #services td, .DoctorSchedule #services th {
+    border: 1px solid white;
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+  
+
+  
+.DoctorSchedule .editIcon{
+    height:1rem;
+    cursor:pointer;
+}
+
+.DoctorSchedule .deleteIcon{
+    height: 1rem;
+    cursor:pointer;
+}

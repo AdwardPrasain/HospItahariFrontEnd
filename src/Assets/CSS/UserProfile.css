@@ -1,0 +1,126 @@
+.UserProfile{
+    padding: 2rem;
+
+}
+
+.UserProfile label{
+    padding-top:0.5rem;
+}
+
+
+
+.UserProfile .userInfoWrapup{
+    border:0.1rem solid rgb(206, 200, 200);
+    padding: 1rem;
+    width:fit-content;
+    height:fit-content;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.UserProfile .btn{
+    margin-top: 0.5rem;
+    background-color: #7ed8c2;
+    color:rgb(97, 74, 45);
+    width:17.5rem;
+}
+
+.UserProfile .infoRow1{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.UserProfile .infoRow2{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.UserProfile .row1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.UserProfile .row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.UserProfile .inputBox{
+    margin:0.8rem;
+    color:rgb(28, 88, 88);
+}
+
+.UserProfile .userEditInput{
+    background-color: transparent;
+    border: 0.1rem solid #7ed8c2;
+    padding: 0.3rem;
+    font-size: small;
+    border-radius: 0.3rem;
+}
+
+.UserProfile .modal-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(224, 242, 218);
+}
+
+.UserProfile .modal-header{
+    display: flex;
+    flex-direction: column;
+}
+  
+.UserProfile .submitBtn{
+    background-color:teal;
+    border:0.1rem solid teal;
+    border-radius:0.2rem;
+    color:white;
+    font-size: 0.9rem;
+}
+
+
+.UserProfile .appointmentPortion{
+    border:3px solid cream;
+    margin:2rem;
+    box-shadow: rgba(218, 223, 227, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(72, 14, 14, 0.08) 0px 1px 0px inset
+
+}
+
+
+.UserProfile .appointmentTable{ 
+    overflow:scroll;
+    height:12rem;
+    margin-top:1rem;
+    text-align: center;
+    table-layout: fixed;
+
+}
+
+
+.UserProfile #appointmentDetail{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small
+}
+
+.UserProfile #appointmentDetail th {
+    top: 0;
+    position: sticky;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(87, 157, 157);
+    color:white;
+}
+
+.UserProfile #appointmentDetail td, .UserProfile #appointmentDetail th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+  
+.UserProfile #appointmentDetail tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+ 
+

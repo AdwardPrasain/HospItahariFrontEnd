@@ -1,0 +1,179 @@
+.Doctor .doctorWrapup{
+    width: 65rem;
+
+    border:1px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:5rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;  
+}
+
+.Doctor .box1{
+    background-color:darkslategray;
+    width:30rem;
+    color:gainsboro;
+}
+
+.Doctor .doctorImage{
+    background-image: center;
+    border-radius:50%;
+    height:10rem;
+    margin-left:9rem;
+    margin-top:5rem;
+    
+}
+
+
+.Doctor .ratingStars{
+    margin-left:10rem;
+    margin-top:0.6rem;
+}
+
+.Doctor h1{
+    margin-top:1.2rem;
+    margin-left: 7.5rem;
+    font-size: large; 
+    font-family: arial;
+    text-decoration: underline;
+    color:cornsilk
+}
+
+.Doctor p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: medium;
+    font-family: arial;
+    word-spacing: 0.1rem;
+    margin-top: 1rem;
+    text-align:justify;
+}
+
+.Doctor .box2{
+    background-color:white;
+    width:35rem;
+
+}
+
+.Doctor .commonRow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    color:black;
+    margin-left: 2rem;
+}
+
+.Doctor .inputbox{
+    display:flex;
+    flex-direction: column;
+}
+
+.Doctor .commonInput{
+    border:0.1rem solid rgb(208, 166, 166);
+    border-radius: 0.3rem;
+    width: 10rem;
+    outline: none;
+    background-color:rgb(247, 246, 246) ;
+    font-size: small;
+    height:2rem;
+}
+
+.Doctor .btn{
+    background-color: aliceblue;
+    margin-left: 0.5rem;
+}
+
+
+.Doctor .paymentMethod{
+    display:flex;
+    flex-direction:row;
+    margin-left:-2rem;
+    padding-top: 0.3rem;
+}
+
+.Doctor .radioButton{
+    display:flex;
+    flex-direction:row;
+    border:1px solid wheat;
+    border-radius:0.4rem;
+    background-color: rgb(244, 235, 217);
+    color:#661818;
+    padding:0.5rem;
+    margin:0.5rem;
+}
+
+
+
+.Doctor .aboutHospItahari{
+    margin-top:2rem;
+    margin-left: 13rem;
+    font-size: Medium; 
+    font-family: arial;
+    text-decoration: underline;
+    color:#661818;
+}
+
+.Doctor .common-p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: small;
+    font-family: arial;
+    word-spacing: 0.1rem;
+    margin-top: -0.1rem;
+    text-align:justify;
+    color:darkslategray
+}
+
+.Doctor h2{
+    margin-top:1.5rem;
+    margin-left: 9rem;
+    font-size: 0.9rem; 
+    font-family: cursive;
+    color:#661818;
+
+}
+
+.Doctor .buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:25rem;
+    margin-Top:-4rem;
+}
+
+.Doctor .appointmentBtn{
+    border: teal;
+    background-color: teal;
+    color:white;
+    height: 2rem;
+    border-radius: 0.3rem;
+}
+
+
+
+
+/*For rating popup*/
+
+.Doctor .modal-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Doctor .modal-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.Doctor .doctorImagePopup{
+    height: 9rem;
+    width: 8rem;
+    border-radius: 0.4rem;
+    margin-left: 2.7rem;
+}
+
+.Doctor .review{
+    margin-top: 1rem;
+}
+
+
+

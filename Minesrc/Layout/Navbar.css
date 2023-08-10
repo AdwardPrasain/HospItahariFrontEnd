@@ -1,0 +1,31 @@
+.navbar .nav{
+    background-color: #d9d9d9;
+    height: 5.5rem;
+    width: 100%; 
+}
+
+.navbar .main-logo{
+    height: 5.5rem;
+    width:fit-content;
+    margin-left:3.5rem;
+}
+
+.navbar .nav_list{
+   
+	float:right;
+	width:fit-content;
+	font:Arial, Helvetica, sans-serif;
+    list-style: none;
+    list-style-type: none; 
+    justify-content:space-between;
+    margin-right:2rem;
+    padding-top:2rem;
+ 
+}
+
+.navbar .nav_link{
+    padding-left: 1.5rem;
+    text-decoration:none;
+    color:#661818;
+    
+}
